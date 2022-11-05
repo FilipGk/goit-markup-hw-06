@@ -991,3 +991,28 @@ h4 {
   margin: 0;
   padding: 0;
 }
+
+.newsletter {
+  position: relative;
+}
+
+.newsletter-button {
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  background-color: var(--fancy-blue-color);
+  border-color: var(--fancy-blue-color);
+}
+
+.newsletter-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
