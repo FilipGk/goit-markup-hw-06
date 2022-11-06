@@ -958,7 +958,6 @@ h4 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   margin: auto;
-  padding: 50px 20px 20px;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -1015,4 +1014,91 @@ h4 {
   color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 528px;
+  height: 581px;
+  padding-inline: 40px;
+  padding-top: 40px;
+}
+
+.form-fieldset {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 58px;
+}
+
+.form-label {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.88;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+
+.form-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.43;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+}
+
+.form-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background-color: var(--fancy-blue-color);
+  border-color: var(--fancy-blue-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.form-input {
+  border: none;
+  background-color: #2196f3;
+  width: 100%;
+  margin-left: 12px;
+}
+
+.form-privacy-policy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-privacy-policy p {
+  margin-left: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
