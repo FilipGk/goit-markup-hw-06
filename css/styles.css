@@ -1034,7 +1034,8 @@ h4 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 100%;
-  height: 58px;
+  padding-block: 10px;
+  padding-inline: 12px;
 }
 
 .form-label {
@@ -1077,6 +1078,8 @@ h4 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
 }
 
 .form-input {
@@ -1090,10 +1093,12 @@ h4 {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.form-privacy-policy p {
-  margin-left: 8px;
+.form-privacy-policy label {
+  margin-left: 7px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1101,4 +1106,43 @@ h4 {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.form-privacy-policy label a {
+  color: #2196f3;
+}
+
+.form-checkbox {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.form-textarea {
+  width: 100%;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.88;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+  padding: 0;
+  resize: none;
+}
+
+.form-textarea-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  padding-block: 12px;
+  padding-inline: 16px;
 }
