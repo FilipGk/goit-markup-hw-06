@@ -80,6 +80,7 @@
                 </svg>
                 <input
                   id="name"
+                  name="name"
                   class="form-input"
                   type="text"
                   required
@@ -92,20 +93,33 @@
                 <svg class="form-icon" width="18" height="18">
                   <use href="images/icons.svg#icon-telephone"></use>
                 </svg>
-                <input id="telephone" class="form-input" type="tel" required />
+                <input
+                  id="telephone"
+                  name="telephone"
+                  class="form-input"
+                  type="tel"
+                  required
+                />
               </fieldset>
               <fieldset class="form-fieldset">
                 <label class="form-label" for="email"> Email</label>
                 <svg class="form-icon" width="18" height="18">
                   <use href="images/icons.svg#icon-form-envelope"></use>
                 </svg>
-                <input id="email" class="form-input" type="email" required />
+                <input
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  type="email"
+                  required
+                />
               </fieldset>
               <fieldset class="form-textarea-wrapper">
                 <label class="form-label" for="comment">Komentarz</label>
                 <textarea
                   placeholder="Wprowadź tekst"
                   id="comment"
+                  name="comment"
                   class="form-textarea"
                   rows="9"
                   maxlength="200"
@@ -115,6 +129,7 @@
                 <input
                   type="checkbox"
                   id="form-checkbox"
+                  name="form-checkbox"
                   class="form-checkbox"
                   required
                 />

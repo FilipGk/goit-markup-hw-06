@@ -1074,8 +1074,8 @@ h4 {
   width: 100%;
   padding-block: 10px;
   padding-inline: 12px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label {
@@ -1143,8 +1143,6 @@ h4 {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  transition: border-color 5s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-privacy-policy label {
@@ -1173,8 +1171,8 @@ h4 {
   left: 0;
   border: 2px solid black;
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-privacy-policy input[type="checkbox"]:checked + label::before {
